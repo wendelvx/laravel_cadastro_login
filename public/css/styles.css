@@ -1,0 +1,110 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: url("../img/image.jpeg") no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 12px;
+      width: 400px;
+      text-align: center;
+      color: white;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .checkbox {
+      margin: 15px 0;
+      font-size: 14px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background: #264de4;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #1a36a6;
+    }
+
+    .login-link {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .login-link a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 480px) {
+  .container {
+    width: 85%;
+    padding: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* ... (todo o seu CSS anterior) ... */
+
+/* ========================================================= */
+/* NOVO ESTILO PARA O SUMÁRIO DE ERROS */
+/* ========================================================= */
+.error-summary {
+    background-color: #f8d7da; /* Fundo vermelho claro */
+    color: #721c24;             /* Texto vermelho escuro */
+    border: 1px solid #f5c6cb;  /* Borda vermelha */
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 1.5rem;      /* Espaçamento abaixo do bloco */
+    text-align: left;           /* Alinha o texto à esquerda */
+}
+
+.error-summary ul {
+    margin: 0;
+    padding-left: 20px; /* Adiciona um recuo para a lista */
+    list-style: disc;   /* Usa bolinhas como marcador */
+}
+
+.error-summary li {
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+}
