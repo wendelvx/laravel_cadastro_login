@@ -80,15 +80,10 @@
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
-/* ... (todo o seu CSS anterior) ... */
-
-/* ========================================================= */
-/* NOVO ESTILO PARA O SUMÁRIO DE ERROS */
-/* ========================================================= */
 .error-summary {
     background-color: #f8d7da; /* Fundo vermelho claro */
     color: #721c24;             /* Texto vermelho escuro */
